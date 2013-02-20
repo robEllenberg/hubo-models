@@ -2,10 +2,10 @@ Repository for storing models of HUBO as well as URDFs describing it for usage w
 
 # Organization
 
-Each robot $ROBNAME has
-* $ROBNAME.urdf: a URDF describing the robot's kinematics and dynamics
-* $ROBNAME-empty-world.urdf: a URDF describing a simulation world that contains only that robot
-* $ROBNAME-dae: a directory containing the robot's models
+Each robot `$ROBNAME` has
+* `$ROBNAME.urdf`: a URDF describing the robot's kinematics and dynamics
+* `$ROBNAME-empty-world.urdf`: a URDF describing a simulation world that contains only that robot
+* `$ROBNAME-dae`: a directory containing the robot's models
 
 # How to use
 
