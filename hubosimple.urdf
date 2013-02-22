@@ -1437,7 +1437,7 @@
     <limit effort="10" lower="-1.74533" upper="1.74533" velocity="1"/>
   </joint>
   <joint name="RAR" type="revolute">
-    <origin rpy="0 -0 0" xyz="0.071244 0.0465 -1.6e-05"/>
+    <origin rpy="0 -0 0" xyz="0.071244 0.0465 0"/>
     <parent link="rightAnklePitch"/>
     <child link="rightFoot"/>
     <axis xyz="1 0 0"/>
@@ -1485,7 +1485,7 @@
     <limit effort="10" lower="-1.74533" upper="1.74533" velocity="1"/>
   </joint>
   <joint name="LAR" type="revolute">
-    <origin rpy="0 -0 0" xyz="0.071244 -0.0465 -1.6e-05"/>
+    <origin rpy="0 -0 0" xyz="0.071244 -0.0465 0"/>
     <parent link="leftAnklePitch"/>
     <child link="leftFoot"/>
     <axis xyz="1 0 0"/>
