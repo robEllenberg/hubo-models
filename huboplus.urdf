@@ -1189,7 +1189,7 @@
     <limit effort="10.0" lower="-2.49582" upper="0.0698132" velocity="1.0"/>
   </joint>
   <joint name="LWY" type="revolute">
-    <origin rpy="0 -0 0" xyz="-0.0219906 0.018 -0.111408"/>
+    <origin rpy="0 -0 0" xyz="-0.0219936 0.018 -0.111408"/>
     <parent link="Body_LEP"/>
     <child link="Body_LWY"/>
     <axis xyz="0 0 1"/>
@@ -1336,7 +1336,7 @@
     <limit effort="10.0" lower="-2.49582" upper="0.0698132" velocity="1.0"/>
   </joint>
   <joint name="RWY" type="revolute">
-    <origin rpy="0 -0 0" xyz="-0.0219906 -0.018 -0.111408"/>
+    <origin rpy="0 -0 0" xyz="-0.0219936 -0.018 -0.111408"/>
     <parent link="Body_REP"/>
     <child link="Body_RWY"/>
     <axis xyz="0 0 1"/>
@@ -1483,7 +1483,7 @@
     <limit effort="10.0" lower="-1.48353" upper="1.6057" velocity="1.0"/>
   </joint>
   <joint name="LKP" type="revolute">
-    <origin rpy="0 -0 0" xyz="0.000766364 -0.0445011 -0.280007"/>
+    <origin rpy="0 -0 0" xyz="0 -0.0445011 -0.280007"/>
     <parent link="Body_LHP"/>
     <child link="Body_LKP"/>
     <axis xyz="0 1 0"/>
@@ -1525,7 +1525,7 @@
     <limit effort="10.0" lower="-1.48353" upper="1.6057" velocity="1.0"/>
   </joint>
   <joint name="RKP" type="revolute">
-    <origin rpy="0 -0 0" xyz="0.000766364 0.0445011 -0.280007"/>
+    <origin rpy="0 -0 0" xyz="0 0.0445011 -0.280007"/>
     <parent link="Body_RHP"/>
     <child link="Body_RKP"/>
     <axis xyz="0 1 0"/>
